@@ -1,0 +1,38 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+li,
+a {
+	list-style-type: none;
+	text-decoration: none;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	background-color: red;
+	padding: 0 2rem;
+	align-items: center;
+	height: 8vh;
+}
+nav {
+	background-color: red;
+	width: 30%;
+	display: flex;
+	align-items: center;
+	background-color: yellow;
+}
+ul {
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+.hero {
+	background-image: url("./hero.jpg");
+	height: 100vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
