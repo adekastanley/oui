@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+        * {
+            margin: 0; 
+            padding: 0;
+            max-width: 100%;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-size: 17px;
+            color: white;
+            line-height: 1.6;
+            background-image: url('bg.jpg');
+            background-position: center;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        #showcase {
+            max-width: 100%;
+           background-color: black;
+           opacity: 50%;
+            background-size: cover;
+            opacity: 90%;
+            color: white;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        #showcase h1 {
+            font-size: 50px;
+            line-height: 1.2;
+        }
+
+        #showcase p {
+            font-size: 20px;
+        }
+
+        #showcase .button {
+            font-size: 18px;
+            text-decoration: none;
+            color: white;
+            border: black 1px solid;
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+        }
+
+        #showcase .button:hover {
+            background: blue;
+            color: #fff;
+        }
+
+        #section-a {
+            padding: 20px;
+            background: whitesmoke;
+            color: black;
+            text-align: center;
+        }
+
+        #section-b {
+            padding: 20px;
+            background: #f4f4f4;
+            text-align: center;
+        }
+
+        #section-c {
+            display: flex;
+        }
+
+        #section-c div {
+            padding: 20px;
+        }
+
+        #section-c .box-1,
+        #section-c .box-3 {
+            background: #926239;
+            color: #fff;
+        }
+
+        #section-c .box-2 {
+            background: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <header id="showcase">
+        <h1>OUI Enterpreneur Portal</h1>
+        <p>Let's equip you with the right skills</p>
+        <a href="./signup.html" class="button">Get Started</a>
+    </header>
+    <section id="section-a">
+        <div class="card">
+            <img src="pic.jpg" width="500" alt="Card Image A">
+            <div class="card-text">
+                <h2>Web Development</h2>
+                <p>Web development is the process of creating websites and web applications for the internet or an intranet. It encompasses a wide range of tasks and skills, from designing the user interface and user experience to programming the backend functionality and databases.</p>
+                <button style="margin: 5px; cursor: pointer; padding: 20px; border-radius: 2px; background-color: rgb(104, 104, 225); outline: none; border: none; color: white;">Register</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="section-a">
+        <div class="card">
+            <img src="./tailor.jpg" width="500" alt="Card Image A">
+            <div class="card-text">
+                <h2>Tailoring</h2>
+                <p>Tailoring is a skilled craft and profession that involves the custom design, cutting, and sewing of clothing to fit an individual's unique body shape and size. Tailors create garments such as suits, shirts, dresses, trousers, and more, ensuring they not only fit perfectly but also reflect the wearer's style preferences.</p>
+                <button style="margin: 5px; cursor: pointer; padding: 20px; border-radius: 2px; background-color: rgb(104, 104, 225); outline: none; border: none; color: white;">Register</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section C with cards -->
+    <section id="section-c">
+        <div class="card box-1">
+            <img src="barber.jpg" width="500" alt="Card Image C1">
+            <div class="card-text">
+                <h2>Barbing</h2>
+                <p>Barbing" is a colloquial term for the practice of men's hair grooming and styling, typically involving haircuts, shaving, and facial hair maintenance at a barber shop.</p>
+            </div>
+        </div>
+        <div class="card box-2">
+            <img src="caterer.png" width="500" alt="Card Image C2">
+            <div class="card-text" style="color: black">
+                <h2>Catering</h2>
+                <p>Catering is the art and business of providing food and beverage services for various events and occasions. Caterers design, prepare, and serve a wide range of dishes to meet the specific needs and preferences of their clients. Whether it's a wedding, corporate meeting, or social gathering, catering ensures that guests are treated to delicious and well-presented food, enhancing the overall experience of an event. It involves meticulous planning, culinary expertise, and a commitment to customer satisfaction.</p>
+            </div>
+        </div>
+        <div class="card box-3">
+            <img src="printer.jpg" width="500" alt="Card Image C3">
+            <div class="card-text">
+                <h2>Printing Press</h2>
+                <p>
+                    The printing press, invented by Johannes Gutenberg in the 15th century, revolutionized the way information was disseminated and played a pivotal role in the spread of knowledge during the Renaissance and beyond. </p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
