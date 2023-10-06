@@ -73,15 +73,32 @@ ul {
 	display: flex;
 	flex-direction: column;
 	padding: 0 4rem;
+	min-height: 60vh;
+	display: flex;
+	justify-content: center;
+}
+.wrapper {
+	background: rgba(255, 255, 255, 0.5);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+	border: 1px solid rgba(255, 255, 255, 0.25);
+	padding: 3rem;
+}
+.section-one div {
+	margin: 0.8rem 0;
 }
 .section-one h2 {
 	/* background-color: red; */
 	font-size: 2rem;
 	margin: 0.3rem 0;
 }
-.section-one p {
-}
 
+.section-one p {
+	font-size: 16px;
+}
+.section-one ul li strong {
+	font-size: 20px;
+}
 .section-one ul li {
 	background: rgba(255, 255, 255, 0.5);
 	-webkit-backdrop-filter: blur(10px);
@@ -92,6 +109,9 @@ ul {
 }
 
 @media screen and (max-width: 700px) {
+	.section-one {
+		height: auto;
+	}
 	.hero-text-container h1 {
 		font-size: 2rem;
 	}
@@ -105,4 +125,27 @@ ul {
 		display: flex;
 		flex-direction: column;
 	}
+}
+footer {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	/* height: 10vh; */
+	background-color: #588157;
+	padding: 3rem 0;
+}
+footer li,
+a {
+	color: black;
+}
+footer .row {
+	display: flex;
+	text-align: start;
+}
+footer .row .col {
+	width: 100%;
+}
+footer .foot {
+	/* height: 100%; */
+	padding: 1rem 0;
 }
